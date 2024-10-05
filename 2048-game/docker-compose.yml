@@ -1,0 +1,18 @@
+services:
+  game1:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: game-container1
+    ports:
+      - "8080:8080"
+    restart: unless-stopped
+
+  game2:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: game-container2
+    ports:
+      - "8081:8080"
+    restart: unless-stopped
