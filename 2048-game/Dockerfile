@@ -1,6 +1,12 @@
 FROM node:18
 
-COPY . .
+WORKDIR /app
+
+COPY *.js ./
+
+COPY *.html ./
+
+COPY *.css ./
 
 EXPOSE 8080
 
