@@ -1,0 +1,70 @@
+BasicInfo:
+  FirstName: Святослав
+  LastName: Орзаев
+  Photo: img/avatar.jpg
+  Contacts:
+    - Icon: fas fa-phone
+      Info: +7(987)-707-**-**
+    - Icon: fas fa-envelope
+      Info: orzaev7312@gmail.com
+    - Icon: fas fa-map-marker-alt
+      Info: г. Йошкар-Ола, Россия
+
+Profile: Начинающий разработчик. Коммуникабелен, общителен, готов к обучению.
+
+Experience:
+  - Employer: ISpring
+    Place: Йошкар-Ола
+    Positions:
+      - Title: Android-разработка (учебная практика)
+        Date: Июнь - Июль 2024 г.
+        Details:
+          - Разрабатывали игру во время прохождения учебной практики
+          - Отвечал за архитектуру приложения
+          - Результат - готовая игра для Android-устройств
+        Badges: ['Android Studio', 'Kotlin', 'XML', 'ООП']
+  - Employer: TravelLine
+    Place: Йошкар-Ола
+    Positions:
+      - Title: .NET-разработка (учебная практика)
+        Date: Июль - Август 2023 г.
+        Details:
+          - Разработка приложений с использованием .NET
+        Badges: ['C#', '.NET-Framework', 'React', 'ASP.NET']
+
+Education:
+  - Course: Программная инженерия, ФиИВТ
+    Place: Поволжский Государственный Технологический Университет (ПГТУ)
+    Date: 2022 - 2026 гг.
+
+Skills:
+  - Family: Языки программирования
+    Items:
+      - C#
+      - C++
+      - Kotlin
+      - HTML
+      - JavaScript
+      - TypeScript
+      - CSS
+      - SQL
+  - Family: Фреймворки
+    Items:
+      - .NET
+      - React
+  - Family: Инструменты
+    Items:
+      - Visual Studio
+      - Visual Studio Code
+      - Git
+      - Docker
+
+Languages:
+  - Name: Русский
+    Level: Родной
+  - Name: English
+    Level: B1
+
+Interests:
+  - Путешествия
+  - Гитара
